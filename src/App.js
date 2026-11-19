@@ -1,9 +1,4 @@
-import symbol from "./symbol.jpg";
-
-function Logo(props) {
-  const userPic = <img src={symbol} />;
-  return userPic;
-}
+import Logo from "./components/logo";
 
 function App() {
   return (
