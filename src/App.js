@@ -1,6 +1,17 @@
-import logo from "./logo.svg";
-import "./App.css";
+import symbol from "./symbol.jpg";
 
-function App() {}
+function Logo(props) {
+  const userPic = <img src={symbol} />;
+  return userPic;
+}
+
+function App() {
+  return (
+    <div>
+      <h1>Hello World</h1>
+      <Logo />
+    </div>
+  );
+}
 
 export default App;
