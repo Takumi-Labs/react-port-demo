@@ -6,7 +6,7 @@ function App() {
     <div>
       <h1>Hello World</h1>
       <Logo />
-      <Btn />
+      <Btn name="Mimi" />
     </div>
   );
 }

@@ -6,14 +6,14 @@
 
 // export default Btn;
 
-function Btn() {
+function Btn(props) {
   const clickHandler = () => console.log("Oh Hey there 👋");
 
   return (
     <>
       <h2>Button to test </h2>
       <button onMouseOver={clickHandler}>Click Me</button>
-      <p>This button detects mouse movements</p>
+      <p>This button detects mouse movements. By {props.name} </p>
     </>
   );
 }
