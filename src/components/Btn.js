@@ -13,6 +13,7 @@ function Btn() {
     <>
       <h2>Button to test </h2>
       <button onMouseOver={clickHandler}>Click Me</button>
+      <p>This button detects mouse movements</p>
     </>
   );
 }
