@@ -1,5 +1,6 @@
 import Logo from "./components/logo";
 import Btn from "./components/Btn";
+import ModeToggler from "./components/ModeToggler";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <h1>Hello World</h1>
       <Logo />
       <Btn name="Mimi" />
+      <ModeToggler />
     </div>
   );
 }
